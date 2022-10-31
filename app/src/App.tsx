@@ -1,4 +1,5 @@
 import './App.css';
+import * as React from "react";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <div className="sidebar">
         bruh
       </div>
-   </div>
+   </div> 
   );
 }
 
