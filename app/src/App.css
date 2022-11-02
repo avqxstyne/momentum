@@ -9,14 +9,19 @@
   --raleway: 'Raleway', sans-serif
 }
 
+#root {
+  display: flex;
+}
+
 
 .body {
   background-color: #1f1f1f;
   height: 100vh;
+  flex: 1;
 }
 
 .main-nav {
-  background-color: #0d0d0d;
+  background-color: #3f3f3f;
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -26,4 +31,21 @@
 .main-nav-heading {
   color: rgb(255, 255, 255);
   font-family: var(--raleway);
+}
+
+.sidebar {
+  background-color: #2e2e2e;;
+  height: 100vh;
+  width: 400px;
+  z-index: 99;
+  flex: 0.4;
+  border-left: 10px solid rgb(124, 22, 97)
+}
+
+.counter {
+  margin: 1rem;
+  width: 8rem;
+  height: 5.5rem;
+  border-radius: 1rem;
+  background-color: lightblue;
 }
