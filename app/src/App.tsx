@@ -2,23 +2,20 @@ import './App.css';
 import * as React from "react";
 
 function App() {
-  return (<>
-    <div className="body">
-      <nav className="main-nav">
-        <h1 className="main-nav-heading">Counters</h1>
-      </nav>
-      <div className='counter-container'>
-        <div className='counter'>A</div>        
-        <div className='counter'>B</div>
-        <div className='counter'>C</div>
+  return (
+    <div className='main'>
+      <div className='left-column'>ABC</div>
+      <div className='content-column'>
+        <form className='content-column-input-form'>
+          <div>
+            <div>0\</div>
+            <input placeholder='Search Twitter'></input>
+          </div>
+        </form>
+        <div>X</div>
       </div>
-    </div> 
-    <div className="sidebar">
-    bruh
+      <div className='right-column'>HIJ</div>
     </div>
-    <div className="sidebar">
-    bruh
-    </div></>
   );
 }
 
