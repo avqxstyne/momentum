@@ -22,7 +22,7 @@ body {
 }
 
 .left-column {
-  flex: 0.67;
+  flex: 0.6;
   background-color: black;
   padding-inline: 2rem;
   
@@ -34,21 +34,3 @@ body {
 }
 
 
-#twitter-icon-1 {
-  color: white;
-  font-size: 2rem;
-}
-
-#twitter-icon-1-container {
-  padding: 0.5rem;
-  border-radius: 99999px;
-  transition: 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 3rem;
-}
-
-#twitter-icon-1-container:hover {
-  background-color: rgb(87, 86, 86);
-}

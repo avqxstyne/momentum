@@ -1,0 +1,44 @@
+#twitter-icon-1 {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  #twitter-icon-1-container {
+    padding: 0.5rem;
+    border-radius: 99999px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+  }
+  
+  #twitter-icon-1-container:hover, .left-column-explore:hover {
+    background-color: rgb(36, 36, 39);
+  }
+  
+  #hash-icon-1 {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .left-column-explore {
+    padding: 0.5rem;
+    padding-right: 1rem;
+    border-radius: 99999px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    gap: 1rem;
+  } .left-column-explore-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  #settings-icon-2 {
+    font-size: 2rem;
+    color: white;
+  }

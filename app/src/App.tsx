@@ -1,19 +1,12 @@
 import './App.css';
 import * as React from "react";
 import ContentColumn from './components/ContentColumn';
+import LeftColumn from './components/LeftColumn';
 
 function App() {
   return (
     <div className='main'>
-
-      <div className='left-column'>
-        <div id='twitter-icon-1-container'>
-        <span className="material-symbols-outlined" id='twitter-icon-1'>
-          token
-        </span>
-        </div>
-      </div>
-
+      <LeftColumn/>
       <ContentColumn/>
       <div className='right-column'>HIJ</div>
     </div>
