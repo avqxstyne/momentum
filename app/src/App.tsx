@@ -1,19 +1,20 @@
 import './App.css';
 import * as React from "react";
+import ContentColumn from './components/ContentColumn';
 
 function App() {
   return (
     <div className='main'>
-      <div className='left-column'>ABC</div>
-      <div className='content-column'>
-        <form className='content-column-input-form'>
-          <div>
-            <div>0\</div>
-            <input placeholder='Search Twitter'></input>
-          </div>
-        </form>
-        <div>X</div>
+
+      <div className='left-column'>
+        <div id='twitter-icon-1-container'>
+        <span className="material-symbols-outlined" id='twitter-icon-1'>
+          token
+        </span>
+        </div>
       </div>
+
+      <ContentColumn/>
       <div className='right-column'>HIJ</div>
     </div>
   );

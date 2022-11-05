@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-
 *, *::before, *::after {
   margin: 0;
   box-sizing: border-box;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 
 body {
@@ -15,19 +22,33 @@ body {
 }
 
 .left-column {
-  flex: 0.7;
+  flex: 0.67;
   background-color: black;
-
-
-}
-
-.content-column {
-  /* flex: 1; */ background-color: black; 
-  width: 45%;
-  border-inline: 2px solid grey;
+  padding-inline: 2rem;
+  
 }
 
 .right-column {
   flex: 1;  background-color: black;
 
+}
+
+
+#twitter-icon-1 {
+  color: white;
+  font-size: 2rem;
+}
+
+#twitter-icon-1-container {
+  padding: 0.5rem;
+  border-radius: 99999px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+}
+
+#twitter-icon-1-container:hover {
+  background-color: rgb(87, 86, 86);
 }
